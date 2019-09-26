@@ -27,7 +27,7 @@ public class SynchronizedTest {
     public static void syncCurrentObjectTest() {
         ExecutorService exec = Executors.newFixedThreadPool(3);
 
-        //  final GenerateCode gCode = new GenerateCode();
+        //  final SynchronizedTest gCode = new SynchronizedTest();
 
         for (int i = 0; i < 5; i++) {
             exec.execute(new Runnable() {
